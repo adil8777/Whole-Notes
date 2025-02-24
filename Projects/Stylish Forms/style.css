@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+box-sizing: border-box;
+}
+.f1 img{
+  height: 50px;  
+}
+.f1{
+  border: 2px solid black;
+  height: 100vh;
+  font-family: cursive;
+}
+.f1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.f2{
+display: flex;
+/* justify-content: center;
+align-items: center; */
+flex-direction: column;
+gap: 10px;
+width: 30vw;
+}
+.f2 div{
+  display: flex;
+  flex-direction: column;
+}
+.f1 button{
+  padding: 5px;
+  width: 30vw;
+  border-radius: 5px;
+  border:none;
+  background-color: cornflowerblue;
+  color: whitesmoke;
+}
+.f2 div input{
+  padding: 5px;
+  border-radius: 5px;
+}
+.f2 div article{
+  display: flex;
+justify-content: space-between;
+}
+.f2 div article span{
+  color:cornflowerblue ;
+}

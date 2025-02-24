@@ -1,0 +1,19 @@
+body{
+    background-color:black;
+}
+.myName{
+    color: chartreuse;
+    font-size: 40px;
+    font-style: italic;
+    background-color: darkred;
+}
+
+.details{
+    color: cyan;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.address{
+    color: darkgreen;
+    text-align: center;
+}
+

@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.navbar{
+    top: 0px;
+    position: fixed;
+    padding: 10px 40px;
+    width:100vw ;
+    height: 50px;
+    border: 2px solid maroon;
+    background-color: maroon;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+color: white;
+gap:40px;
+}
+
+#logo{
+    height: 40px;
+    margin-top: 4px;
+}
+
+.navbar div{
+    cursor: pointer;
+    display: flex;
+    gap: 40px;
+}
+.navbar div span:hover{
+    border: 3px solid black;
+    border-radius: 90px;
+    background-color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+    border: 2px solid black;
+    margin-top: 50px;
+    color: ivory;
+    background-image: url(./images/ai\ robot.jpg);
+    height: 400px;
+    width: 100%;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.para button{
+    cursor: pointer;
+    color: gold;
+    font-weight: bold;
+background-color: rgba(184, 65, 18, 0.856);
+border-radius: 20px;
+padding: 5px;
+border: black;
+}
+
+.para button:hover{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para p{
+    margin: 0px 100px;
+    font-family: cursive;
+    line-height: 30px;
+}
+.Services h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+margin-bottom: 20px;
+
+}
+
+.Services{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.Services .b1{
+    width: 30%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    gap: 20px;
+    background-color: rgba(195, 166, 166, 0.192);
+    border-radius: 20px ;
+    border-color: burlywood;
+
+}
+.Services div img{
+height: 60px;
+width: 60px;
+
+}
+.Services div h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.boxes{
+   width: 100%;
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-evenly;
+}
+
+.clients{
+    /* border: 2px solid black; */
+   background-color: rgba(203, 228, 179, 0.514);
+    margin-top: 20px;
+    height: 200px;
+    background-image: url(./images/peebles\ 2.jpg);
+color: seashell;
+}
+.clients img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    
+}
+.clients div{
+    padding: 20px;
+    flex-wrap: wrap;
+    height: 175px;
+    display:flex ;
+    gap: 20%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.clients h2{
+    text-align: center;
+}
+
+.contactForm h2{
+    margin: 20px;
+color: goldenrod;
+text-align: center;
+
+}
+.contactForm{
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./images/360_F_558118140_uyQ2wwCpjr3WJc2B1j6GFtbPIvW8i0ce.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.contactForm div{
+    /* border: 2px solid yellow; */
+    color: goldenrod;
+    /* margin-left: 70px; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    /* align-items: center; */
+   width: 200px;
+
+}
+.contactForm button{
+    cursor: pointer;
+color: aliceblue; 
+    font-weight: bold;
+background-color: maroon;
+border-radius: 20px;
+padding: 5px;
+border: yellow;   
+margin: 15px 20px 20px 20px;
+}
+.contactForm button:hover{
+background-color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer{
+    text-align: center;
+background-color: papayawhip;
+}
