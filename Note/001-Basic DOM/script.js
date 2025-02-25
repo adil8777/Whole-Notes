@@ -53,7 +53,12 @@ doubleBtn.addEventListener("dblclick",function (){
     heading.textContent = "Button is clicked twice"
 })
 
+const username = document.querySelector("#username")
 
+username.addEventListener("input",function (){
+    // console.log('change');
+    console.log(username.value);
+})
 
 
 
