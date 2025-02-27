@@ -21,10 +21,6 @@ btn.addEventListener(`click`,async function(){
     <p> Percentage : ${data.probability * 100} </p>
 
     `
-
-
-
-
 })
 
 
